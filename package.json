@@ -1,0 +1,46 @@
+{
+  "name": "webpack-angular-es6",
+  "version": "0.0.1",
+  "description": "webpack + angular + babel-quick-start",
+  "scripts": {
+    "build": "rimraf dist && webpack --bail --progress --profile",
+    "server": "webpack-dev-server --history-api-fallback --inline --progress",
+    "start": "npm run server"
+  },
+  "author": "falsy",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-resource": "^1.6.4",
+    "angular-ui-router": "^0.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-beta.5",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.7.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "lodash": "^4.17.4",
+    "node-libs-browser": "2.0.0",
+    "null-loader": "^0.1.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.1",
+    "style-loader": "^0.13.0",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falsy/webpack-angular-es6-quickstart.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falsy/webpack-angular-es6-quickstart/issues"
+  },
+  "homepage": "https://github.com/falsy/webpack-angular-es6-quickstart#readme",
+  "main": "webpack.config.js"
+}
